@@ -1,3 +1,9 @@
+import User from "@/components/User";
+
 export default function Home() {
-  return <h1>Hello from Next</h1>;
+  return (
+    <User>
+      <h1>This is from children</h1>
+    </User>
+  );
 }
